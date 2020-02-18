@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "/src/webdriver/*.js",
+  ],
+  "presets": [
+    "@babel/preset-env"
+  ]
+}

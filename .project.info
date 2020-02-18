@@ -1,0 +1,27 @@
+# 조직명(최소단위)
+org: 비즈서버개발2셀
+# 프로젝트명
+proj: 카카오 for 비즈니스 어드민
+# 프로젝트 소개
+proj_desc: 사업자정보 수정 요청 대한 심사처리 및 이용자 및 사업자 관련 CS 처리를 수행
+# 담당자
+contact: stan.k, joon.k, teddy.ready
+# Github 주소 (포크 떠온 경우만 기입)
+src_github: N/A
+# 프로젝트 상태 (Release, Pre-release, Personal)
+status: Release
+# 서비스 도메인 네임 (real만)
+dns_name: admin-business.kakao.com
+# 아지트 주소
+agit_url: https://kakao.agit.in/g/300022247/wall
+# 지라 주소
+jira_url: https://jira.daumkakao.com/browse/BIZC
+# 위키 주소
+wiki_url: https://wiki.daumkakao.com/display/Project/Kakao+for+Business+Home
+# 스킬셋
+skills:
+  - ES6
+  - Vue.js
+  - Nuxt.js
+  - Node.js
+  - NginX

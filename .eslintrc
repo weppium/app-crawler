@@ -1,0 +1,34 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "spread": true
+    }
+  },
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "standard",
+    "plugin:import/errors"
+  ],
+  "rules": {
+    "arrow-parens": "off",
+    "generator-star-spacing": "off",
+    "max-len": [
+      "warn",
+      {
+        "code": 120,
+        "ignoreComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "require-await": "error"
+  }
+}
